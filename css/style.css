@@ -9,21 +9,7 @@
   --accent: #000000;
   --shadow: 0 30px 80px rgba(17,17,17,0.08);
   --radius: 28px;
-  --header-bg: rgba(255,255,255,0.95);
   font-family: 'Inter', sans-serif;
-}
-
-[data-theme="dark"] {
-  color-scheme: dark;
-  --bg: #090909;
-  --surface: #111111;
-  --surface-soft: #171717;
-  --text: #f4f4f4;
-  --muted: #999999;
-  --border: rgba(255,255,255,0.06);
-  --accent: #ffffff;
-  --shadow: 0 30px 80px rgba(0,0,0,0.22);
-  --header-bg: rgba(17,17,17,0.86);
 }
 
 * {
@@ -40,7 +26,6 @@ body {
   background: var(--bg);
   color: var(--text);
   line-height: 1.6;
-  transition: background 0.4s ease, color 0.4s ease;
 }
 
 img {
@@ -122,13 +107,11 @@ button, input, textarea, select {
   justify-content: space-between;
   gap: 1rem;
   padding: 1.25rem 2rem;
-  background: var(--header-bg);
-  border-bottom: 1px solid var(--border);
   backdrop-filter: blur(14px);
 }
 
 .site-header .brand {
-  font-size: 1rem;
+  font-size: 2rem;
   font-weight: 700;
   letter-spacing: 0.15em;
   text-transform: uppercase;
@@ -153,14 +136,6 @@ button, input, textarea, select {
 .nav-links a:hover,
 .nav-links a:focus {
   color: var(--text);
-}
-
-.theme-toggle {
-  border: none;
-  background: transparent;
-  color: var(--muted);
-  font-size: 1.05rem;
-  cursor: pointer;
 }
 
 .hero-section {
