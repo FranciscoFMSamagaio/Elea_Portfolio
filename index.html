@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elea Gomes | Architecture Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="index.html">Elea Gomes</a>
+      <nav class="nav-links">
+        <a href="index.html">Work</a>
+        <a href="cv.html">CV</a>
+        <a href="about.html">About</a>
+        <a href="contacts.html">Contacts</a>
+        <a href="https://www.linkedin.com/in/elea-gomes" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="mailto:elea.gomes@example.com">Mail</a>
+      </nav>
+      <button class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+    </header>
+
+    <main>
+      <section class="hero-section">
+        <div class="hero-copy">
+          <p class="eyebrow">Architecture & spatial storytelling</p>
+          <h1>Designing luminous spaces with calm minimalism.</h1>
+          <p class="hero-text">A portfolio of architecture, concepts, physical models and visual narratives. Explore the work through atmospheric imagery and refined presentation.</p>
+        </div>
+      </section>
+
+      <section class="section section-featured">
+        <div class="section-header">
+          <div>
+            <p class="section-label">Featured projects</p>
+            <h2>Selected architecture work</h2>
+          </div>
+          <p class="section-description">Swipe or scroll horizontally for an immersive gallery of built and conceptual spaces.</p>
+        </div>
+
+        <div class="horizontal-scroll" data-scroll-container>
+          <article class="project-card" onclick="location.href='project-atelier.html'">
+            <div class="project-image image-atelier"></div>
+            <div class="project-overlay">
+              <p class="project-type">Residential Atelier</p>
+              <h3>Studio House</h3>
+              <p class="project-copy">A light-filled dwelling layered with workshops and quiet gardens.</p>
+            </div>
+          </article>
+
+          <article class="project-card" onclick="location.href='project-urban.html'">
+            <div class="project-image image-urban"></div>
+            <div class="project-overlay">
+              <p class="project-type">Urban Renewal</p>
+              <h3>City Atrium</h3>
+              <p class="project-copy">A civic hub weaving public space, offices and subtle material textures.</p>
+            </div>
+          </article>
+
+          <article class="project-card" onclick="location.href='project-heritage.html'">
+            <div class="project-image image-heritage"></div>
+            <div class="project-overlay">
+              <p class="project-type">Cultural Conservation</p>
+              <h3>Heritage Pavilion</h3>
+              <p class="project-copy">A calm intervention that honors history with new light-filled volumes.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-gallery">
+        <div class="section-header compact">
+          <div>
+            <p class="section-label">Other work</p>
+            <h2>Models, drawings, and 3D studies</h2>
+          </div>
+        </div>
+
+        <div class="horizontal-scroll refined">
+          <div class="gallery-tile tile-3d">3D Modeling</div>
+          <div class="gallery-tile tile-drawing">Drawings</div>
+          <div class="gallery-tile tile-model">Physical Models</div>
+          <div class="gallery-tile tile-3d-2">Volumetric Studies</div>
+          <div class="gallery-tile tile-drawing-2">Material Sketches</div>
+        </div>
+      </section>
+
+      <section class="section section-about-preview">
+        <div class="about-preview-card">
+          <p class="section-label">Practice</p>
+          <h2>Thoughtful architecture, rooted in craft.</h2>
+          <p>Elea explores quiet geometry, daylight, and material restraint to shape spaces that feel generous and precise. Every project is an essay in atmosphere, texture and human comfort.</p>
+          <a class="button-secondary" href="about.html">Read the story</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2026 Elea Gomes. Designed for elegant presentation and easy browsing.</p>
+    </footer>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

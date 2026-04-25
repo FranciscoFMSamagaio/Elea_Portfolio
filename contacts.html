@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacts | Elea Gomes</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="index.html">Elea Gomes</a>
+      <nav class="nav-links">
+        <a href="index.html">Work</a>
+        <a href="cv.html">CV</a>
+        <a href="about.html">About</a>
+        <a href="contacts.html">Contacts</a>
+        <a href="https://www.linkedin.com/in/elea-gomes" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="mailto:elea.gomes@example.com">Mail</a>
+      </nav>
+      <button class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+    </header>
+
+    <main class="content-page">
+      <section class="section section-page-header">
+        <p class="section-label">Contact</p>
+        <h1>Let’s discuss a project or collaboration.</h1>
+        <p class="section-description">Email, phone and social links for design commissions, collaborations, or studio inquiries.</p>
+      </section>
+
+      <section class="section contact-grid">
+        <div class="contact-panel">
+          <h2>Email</h2>
+          <a href="mailto:elea.gomes@example.com">elea.gomes@example.com</a>
+        </div>
+        <div class="contact-panel">
+          <h2>Phone</h2>
+          <a href="tel:+351912345678">+351 912 345 678</a>
+        </div>
+        <div class="contact-panel social-panel">
+          <h2>Social</h2>
+          <a href="https://www.linkedin.com/in/elea-gomes" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://www.instagram.com/elea.gomes.arch" target="_blank" rel="noreferrer">Instagram</a>
+        </div>
+        <div class="contact-panel contact-form-panel">
+          <h2>Message</h2>
+          <form action="mailto:elea.gomes@example.com" method="post" enctype="text/plain">
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Your name" />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="5" placeholder="Tell me about your project"></textarea>
+            </label>
+            <button type="submit" class="button-primary">Send</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2026 Elea Gomes. Built for elegant static hosting.</p>
+    </footer>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
