@@ -33,6 +33,10 @@ img {
   display: block;
 }
 
+a {
+  text-decoration: none;
+}
+
 button, input, textarea, select {
   font: inherit;
 }
@@ -228,6 +232,14 @@ button, input, textarea, select {
   border-radius: 999px;
 }
 
+.horizontal-scroll.refined {
+  scrollbar-width: none;
+}
+
+.horizontal-scroll.refined::-webkit-scrollbar {
+  display: none;
+}
+
 .project-card,
 .gallery-tile {
   scroll-snap-align: start;
@@ -364,7 +376,7 @@ button, input, textarea, select {
   margin: 0 auto;
 }
 
-.two-column-gallery {
+.work-gallery.two-column-gallery {
   grid-template-columns: repeat(2, minmax(0, 480px));
   justify-content: center;
 }
@@ -566,9 +578,12 @@ button, input, textarea, select {
   }
 
   .cv-grid,
-  .contact-grid,
-  .work-gallery {
+  .contact-grid {
     grid-template-columns: 1fr;
+  }
+
+  .work-gallery.two-column-gallery {
+    grid-template-columns: repeat(2, minmax(0, 480px));
   }
 }
 
