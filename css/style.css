@@ -323,6 +323,7 @@ button, input, textarea, select {
   place-items: center;
   min-height: 360px;
   color: var(--text);
+  text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.24em;
   font-size: 1.35rem;
@@ -341,6 +342,23 @@ button, input, textarea, select {
 .tile-model { background: linear-gradient(150deg, #f2efe9, #c9c5b8); }
 .tile-3d-2 { background: linear-gradient(150deg, #f5f1ed, #d8d1c4); }
 .tile-drawing-2 { background: linear-gradient(150deg, #ece8e2, #c2bcb6); }
+
+.work-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 480px));
+  justify-content: center;
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.work-gallery img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  background: var(--surface-soft);
+  box-shadow: var(--shadow);
+}
 
 .section-about-preview {
   display: flex;
@@ -499,6 +517,11 @@ button, input, textarea, select {
   font-size: 0.95rem;
 }
 
+.site-footer a {
+  color: inherit;
+  text-decoration: none;
+}
+
 @media (max-width: 900px) {
   .site-header {
     flex-wrap: wrap;
@@ -526,7 +549,8 @@ button, input, textarea, select {
   }
 
   .cv-grid,
-  .contact-grid {
+  .contact-grid,
+  .work-gallery {
     grid-template-columns: 1fr;
   }
 }
