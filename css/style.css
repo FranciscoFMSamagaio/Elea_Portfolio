@@ -470,6 +470,12 @@ button, input, textarea, select {
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
+.contact-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
 .contact-link:hover {
   transform: translateY(-5px);
   box-shadow: 0 20px 60px rgba(17,17,17,0.12);
