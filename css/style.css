@@ -333,6 +333,18 @@ button, input, textarea, select {
   background: linear-gradient(180deg, rgba(248,246,240,0.95), rgba(230,225,217,0.95));
 }
 
+.section-gallery a,
+.section-gallery a:visited,
+.section-gallery a:hover,
+.section-gallery a:focus,
+.gallery-tile,
+.gallery-tile:visited,
+.gallery-tile:hover,
+.gallery-tile:focus {
+  color: var(--text);
+  text-decoration: none;
+}
+
 .gallery-tile:hover {
   background: linear-gradient(180deg, rgba(245,243,238,1), rgba(214,207,197,1));
 }
@@ -350,6 +362,11 @@ button, input, textarea, select {
   gap: 1.5rem;
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.two-column-gallery {
+  grid-template-columns: repeat(2, minmax(0, 480px));
+  justify-content: center;
 }
 
 .work-gallery img {
