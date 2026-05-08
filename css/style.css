@@ -31,6 +31,12 @@ body {
   line-height: 1.6;
 }
 
+body *,
+body *::before,
+body *::after {
+  font-family: var(--font-main);
+}
+
 img {
   max-width: 100%;
   display: block;
