@@ -196,13 +196,22 @@ button, input, textarea, select {
   display: flex;
   justify-content: space-between;
   gap: 1rem;
-  align-items: flex-end;
+  align-items: flex-start;
   max-width: 1200px;
   margin: 0 auto 1.5rem;
 }
 
 .section-header.compact {
   align-items: flex-start;
+}
+
+.projects-title {
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.projects-title h2 {
+  font-weight: 400;
 }
 
 .section-label {
