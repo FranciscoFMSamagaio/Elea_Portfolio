@@ -263,6 +263,23 @@ button, input, textarea, select {
   display: none;
 }
 
+.section-gallery .section-header {
+  max-width: none;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: left;
+}
+
+.section-gallery .section-label {
+  font-weight: 400;
+}
+
+.section-gallery .section-header h2 {
+  font-size: clamp(1.35rem, 2vw, 2rem);
+  font-weight: 400;
+  max-width: 28ch;
+}
+
 .project-card,
 .gallery-tile {
   scroll-snap-align: start;
@@ -357,15 +374,18 @@ button, input, textarea, select {
   display: grid;
   place-items: center;
   min-height: 360px;
-  color: var(--text);
+  color: white;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.24em;
-  font-size: 1.35rem;
-  font-weight: 700;
+  font-size: 1.1rem;
+  font-weight: 400;
   padding: 1.5rem;
   text-align: center;
   background: linear-gradient(180deg, rgba(248,246,240,0.95), rgba(230,225,217,0.95));
+  background-position: center;
+  background-size: cover;
+  text-shadow: 0 2px 16px rgba(0,0,0,0.55);
 }
 
 .section-gallery a,
@@ -376,17 +396,26 @@ button, input, textarea, select {
 .gallery-tile:visited,
 .gallery-tile:hover,
 .gallery-tile:focus {
-  color: var(--text);
+  color: white;
   text-decoration: none;
 }
 
 .gallery-tile:hover {
-  background: linear-gradient(180deg, rgba(245,243,238,1), rgba(214,207,197,1));
+  filter: grayscale(1) contrast(0.95) brightness(0.95);
 }
 
-.tile-3d { background: linear-gradient(150deg, #f4f1ec, #d6cfc2); }
-.tile-drawing { background: linear-gradient(150deg, #eae7e1, #c8c2b8); }
-.tile-model { background: linear-gradient(150deg, #f2efe9, #c9c5b8); }
+.tile-3d {
+  background-image: linear-gradient(180deg, rgba(0,0,0,0.08), rgba(0,0,0,0.46)), url("../3D_Modeling/3D_Modeling_1.jpg");
+}
+
+.tile-drawing {
+  background-image: linear-gradient(180deg, rgba(0,0,0,0.08), rgba(0,0,0,0.46)), url("../Drawing/Drawing_1.jpg");
+}
+
+.tile-model {
+  background-image: linear-gradient(180deg, rgba(0,0,0,0.08), rgba(0,0,0,0.46)), url("../Architecture_Model/Architecture_Model_1.JPEG");
+}
+
 .tile-3d-2 { background: linear-gradient(150deg, #f5f1ed, #d8d1c4); }
 .tile-drawing-2 { background: linear-gradient(150deg, #ece8e2, #c2bcb6); }
 
