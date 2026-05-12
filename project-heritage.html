@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Elea Gomes architecture portfolio page." />
   <title>Heritage Pavilion | Elea Gomes</title>
-  <link rel="stylesheet" href="css/style.css?v=font-everywhere" />
+  <link rel="stylesheet" href="css/style.css?v=projects-carousel-i18n" />
 </head>
 <body>
   <div class="page-shell">
@@ -20,18 +21,18 @@
 
     <main class="content-page">
       <section class="section section-page-header">
-        <p class="section-label">Project</p>
-        <h1>Heritage Pavilion</h1>
-        <p class="section-description">A sensitive cultural pavilion woven into an existing historic setting.</p>
+        <p class="section-label" data-i18n="pages.project.label">Project</p>
+        <h1 data-i18n="projects.heritage.title">Heritage Pavilion</h1>
+        <p class="section-description" data-i18n="projects.heritage.description">A sensitive cultural pavilion woven into an existing historic setting.</p>
       </section>
 
       <section class="section project-details">
         <div class="project-detail-copy">
-          <p>The Heritage Pavilion is a subtle addition to an existing landscape, respecting context while offering an open exhibition space and contemplative courtyard. The design balances old and new through material restraint and spatial clarity.</p>
+          <p data-i18n="projects.heritage.copy">The Heritage Pavilion is a subtle addition to an existing landscape, respecting context while offering an open exhibition space and contemplative courtyard. The design balances old and new through material restraint and spatial clarity.</p>
           <ul>
-            <li><strong>Location:</strong> Cascais, Portugal</li>
-            <li><strong>Year:</strong> 2025</li>
-            <li><strong>Type:</strong> Cultural Conservation</li>
+            <li data-i18n-html="projects.heritage.location"><strong>Location:</strong> Cascais, Portugal</li>
+            <li data-i18n-html="projects.heritage.year"><strong>Year:</strong> 2025</li>
+            <li data-i18n-html="projects.heritage.type"><strong>Type:</strong> Cultural Conservation</li>
           </ul>
         </div>
         <div class="project-gallery">
@@ -46,6 +47,8 @@
       <p>© 2026 Elea Gomes Portfolio</p>
     </footer>
   </div>
+  <script src="https://unpkg.com/i18next@23.16.8/dist/umd/i18next.min.js"></script>
+  <script src="js/i18n.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

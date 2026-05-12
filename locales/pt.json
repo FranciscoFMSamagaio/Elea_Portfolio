@@ -1,0 +1,190 @@
+{
+  "metadata": {
+    "index": {
+      "title": "Elea Gomes | Portefólio de Arquitetura",
+      "description": "Portefólio de arquitetura de Elea Gomes, com projetos, desenhos, modelação 3D e maquetes."
+    },
+    "about": {
+      "title": "Sobre | Elea Gomes",
+      "description": "Conheça Elea Gomes, estudante de arquitetura e criadora multidisciplinar."
+    },
+    "cv": {
+      "title": "CV | Elea Gomes",
+      "description": "CV, formação, experiência profissional, competências e línguas de Elea Gomes."
+    },
+    "contacts": {
+      "title": "Contactos | Elea Gomes",
+      "description": "Contacte Elea Gomes para projetos de arquitetura, colaborações e oportunidades."
+    },
+    "drawings": {
+      "title": "Desenhos | Elea Gomes",
+      "description": "Galeria de desenhos de Elea Gomes."
+    },
+    "3d-modeling": {
+      "title": "Modelação 3D | Elea Gomes",
+      "description": "Galeria de modelação 3D de Elea Gomes."
+    },
+    "architecture-model": {
+      "title": "Maquete | Elea Gomes",
+      "description": "Galeria de maquetes de arquitetura de Elea Gomes."
+    },
+    "project-atelier": {
+      "title": "Studio House | Elea Gomes",
+      "description": "Projeto Studio House de Elea Gomes."
+    },
+    "project-urban": {
+      "title": "City Atrium | Elea Gomes",
+      "description": "Projeto City Atrium de Elea Gomes."
+    },
+    "project-heritage": {
+      "title": "Heritage Pavilion | Elea Gomes",
+      "description": "Projeto Heritage Pavilion de Elea Gomes."
+    }
+  },
+  "nav": {
+    "portfolio": "Portefólio",
+    "about": "Sobre Mim",
+    "cv": "CV",
+    "contact": "Contacto"
+  },
+  "footer": "© 2026 Portefólio Elea Gomes",
+  "index": {
+    "projects": "Projetos",
+    "otherWork": "Outro trabalho",
+    "otherWorkTitle": "Modelação 3D, maquete de arquitetura e desenhos",
+    "projectTypes": [
+      "Atelier residencial",
+      "Requalificação urbana",
+      "Conservação cultural",
+      "Casa paisagística",
+      "Refúgio residencial"
+    ],
+    "projectTitles": [
+      "Studio House",
+      "City Atrium",
+      "Heritage Pavilion",
+      "Garden Pavilion",
+      "Lake House"
+    ],
+    "projectCopy": [
+      "Uma habitação luminosa com oficinas e jardins tranquilos.",
+      "Um núcleo cívico que cruza espaço público, escritórios e texturas subtis.",
+      "Uma intervenção calma que valoriza a história com novos volumes cheios de luz.",
+      "Um refúgio com vidro escultórico e um pátio plantado silencioso.",
+      "Uma casa serena em madeira organizada em torno de um terraço de água."
+    ],
+    "tiles": {
+      "modeling": "Modelação 3D",
+      "model": "Maquete",
+      "drawings": "Desenhos"
+    },
+    "controls": {
+      "projects": "Controlos do carousel de projetos",
+      "otherWork": "Controlos do carousel de outros trabalhos",
+      "previousProjects": "Projetos anteriores",
+      "nextProjects": "Projetos seguintes",
+      "previousOtherWork": "Trabalho anterior",
+      "nextOtherWork": "Trabalho seguinte"
+    }
+  },
+  "pages": {
+    "about": {
+      "label": "Sobre Mim",
+      "title": "Elea Gomes",
+      "copy1": "Estou atualmente a concluir o Mestrado em Arquitetura, com a entrega da dissertação prevista para julho de 2026. Considero-me uma pessoa dedicada, responsável e entusiasta, sempre disponível para aprender novas competências e abraçar novos desafios. Valorizo a comunicação e o trabalho em equipa, e gosto de colaborar em ambientes criativos e dinâmicos.",
+      "copy2": "Sou apaixonada por descobrir novos lugares e procurar oportunidades que me permitam viver culturas e aventuras internacionais. Fora da arquitetura, dedico grande parte do meu tempo livre a atividades criativas como desenho, pintura, leitura, escrita e crochet, bem como a desporto e atividades ao ar livre, incluindo voleibol, pilates, dança, caminhadas e snorkeling.",
+      "portrait": "Retrato Elea Gomes"
+    },
+    "cv": {
+      "label": "CV",
+      "title": "CV",
+      "description": "Formação em arquitetura, experiência em projeto e competências de software.",
+      "button": "Descarregar CV (PDF)"
+    },
+    "contacts": {
+      "label": "Contacto",
+      "title": "Vamos falar sobre um projeto ou colaboração.",
+      "description": "Se tem interesse no meu trabalho, entre em contacto comigo.",
+      "emailLabel": "Enviar email a Elea Gomes",
+      "linkedinLabel": "Abrir Elea Gomes no LinkedIn"
+    },
+    "otherWork": {
+      "label": "Outro trabalho",
+      "drawings": "Desenhos",
+      "modeling": "Modelação 3D",
+      "model": "Maquete"
+    },
+    "project": {
+      "label": "Projeto"
+    }
+  },
+  "cv": {
+    "sections": {
+      "work": "Experiência Profissional",
+      "education": "Formação",
+      "skills": "Competências",
+      "other": "Outras Experiências",
+      "languages": "Línguas"
+    },
+    "work": {
+      "intern": "<strong>Estagiária de Arquitetura</strong><br>RAAI Architecture et Ingénierie | Paris | março-julho 2025"
+    },
+    "education": {
+      "faup": "<strong>FAUP</strong><br>Faculdade de Arquitetura da Universidade do Porto | 2020-2026",
+      "munich": "<strong>Munich University of Applied Sciences</strong><br>Semestre de inverno 2024/2025<br>Programa Erasmus – Hochschule München",
+      "bologna": "<strong>Universidade de Bolonha</strong><br>Verão 2024<br>Blended Intensive Programme (BIP)",
+      "erasmus": "<strong>Erasmus+</strong><br>Escola Secundária Almeida Garrett | 2018-2019"
+    },
+    "skills": {
+      "autocad": "AutoCAD",
+      "revit": "Revit",
+      "archicad": "Archicad",
+      "photoshop": "Adobe Photoshop",
+      "indesign": "Adobe InDesign",
+      "qgis": "QGIS",
+      "vray": "V-Ray",
+      "handDrawing": "Desenho à mão",
+      "sketching": "Esquisso",
+      "watercolors": "Aguarela",
+      "modeling": "Modelação 3D"
+    },
+    "other": {
+      "babysitter": "<strong>Babysitter</strong><br>Porto | Trabalho ocasional | 2017-2022",
+      "waitress": "<strong>Empregada de mesa e apoio a eventos</strong><br>The Vintage House Hotel | Douro | agosto-setembro 2022",
+      "events": "<strong>Apoio a eventos e conferências</strong><br>FAUP | Porto | Trabalho ocasional | 2023-2025",
+      "tutor": "<strong>Tutora de inglês</strong><br>Munique | setembro 2024 - fevereiro 2025"
+    },
+    "languages": {
+      "portuguese": "Português — Nativo",
+      "english": "Inglês — Fluente",
+      "french": "Francês — Fluente",
+      "spanish": "Espanhol — Intermédio"
+    }
+  },
+  "projects": {
+    "studio": {
+      "title": "Studio House",
+      "description": "Uma residência-atelier compacta desenhada em torno de um pátio, luz norte generosa e proximidade material.",
+      "copy": "A Studio House é pensada como um refúgio urbano calmo, com um jardim interior, superfícies expressivas em madeira e momentos de luz filtrada. A planta organiza as áreas de estar, trabalho e descanso em torno de um pátio central, criando ligações visuais variadas.",
+      "location": "<strong>Localização:</strong> Lisboa, Portugal",
+      "year": "<strong>Ano:</strong> 2025",
+      "type": "<strong>Tipo:</strong> Atelier residencial"
+    },
+    "city": {
+      "title": "City Atrium",
+      "description": "Uma intervenção urbana que introduz um átrio calmo e escultórico num distrito cívico dinâmico.",
+      "copy": "O City Atrium funciona como âncora para a vida pública, combinando espaços transparentes de encontro com escritórios nos pisos superiores. A proposta reforça a continuidade entre rua, interior e terraços de cobertura.",
+      "location": "<strong>Localização:</strong> Porto, Portugal",
+      "year": "<strong>Ano:</strong> 2024",
+      "type": "<strong>Tipo:</strong> Requalificação urbana"
+    },
+    "heritage": {
+      "title": "Heritage Pavilion",
+      "description": "Um pavilhão cultural sensível, integrado num contexto histórico existente.",
+      "copy": "O Heritage Pavilion é uma adição subtil a uma paisagem existente, respeitando o contexto enquanto oferece um espaço expositivo aberto e um pátio contemplativo. O desenho equilibra antigo e novo através de contenção material e clareza espacial.",
+      "location": "<strong>Localização:</strong> Cascais, Portugal",
+      "year": "<strong>Ano:</strong> 2025",
+      "type": "<strong>Tipo:</strong> Conservação cultural"
+    }
+  }
+}

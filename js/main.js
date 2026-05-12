@@ -1,49 +1,33 @@
-function setupInfiniteCarousel() {
-  const carousel = document.querySelector('[data-infinite-carousel]');
-  if (!carousel) return;
+function setupCarousels() {
+  const carousels = document.querySelectorAll('[data-carousel]');
+  if (!carousels.length) return;
 
-  const originalCards = Array.from(carousel.children);
-  if (!originalCards.length) return;
+  carousels.forEach((carousel) => {
+    const previousButton = document.querySelector(`[data-carousel-prev="${carousel.id}"]`);
+    const nextButton = document.querySelector(`[data-carousel-next="${carousel.id}"]`);
+    const firstItem = carousel.firstElementChild;
+    if (!firstItem || !previousButton || !nextButton) return;
 
-  const clonesBefore = originalCards.map(card => card.cloneNode(true));
-  const clonesAfter = originalCards.map(card => card.cloneNode(true));
+    const getStep = () => firstItem.getBoundingClientRect().width + 24;
+    const maxScroll = () => carousel.scrollWidth - carousel.clientWidth - 2;
 
-  clonesBefore.forEach(clone => carousel.insertBefore(clone, carousel.firstChild));
-  clonesAfter.forEach(clone => carousel.appendChild(clone));
+    const updateButtons = () => {
+      previousButton.disabled = carousel.scrollLeft <= 2;
+      nextButton.disabled = carousel.scrollLeft >= maxScroll();
+    };
 
-  const originalWidth = carousel.scrollWidth / 3;
-  carousel.scrollLeft = originalWidth;
+    previousButton.addEventListener('click', () => {
+      carousel.scrollBy({ left: -getStep(), behavior: 'smooth' });
+    });
 
-  let isPaused = false;
-  let lastTimestamp = null;
-  const speed = 0.035; // pixels per ms
+    nextButton.addEventListener('click', () => {
+      carousel.scrollBy({ left: getStep(), behavior: 'smooth' });
+    });
 
-  const resetScroll = () => {
-    const scrollLeft = carousel.scrollLeft;
-    if (scrollLeft <= 1) {
-      carousel.scrollLeft = scrollLeft + originalWidth;
-    } else if (scrollLeft >= originalWidth * 2 - 1) {
-      carousel.scrollLeft = scrollLeft - originalWidth;
-    }
-  };
-
-  const autoScroll = (timestamp) => {
-    if (lastTimestamp !== null && !isPaused) {
-      const delta = timestamp - lastTimestamp;
-      carousel.scrollLeft += delta * speed;
-      resetScroll();
-    }
-    lastTimestamp = timestamp;
-    requestAnimationFrame(autoScroll);
-  };
-
-  carousel.addEventListener('mouseenter', () => { isPaused = true; });
-  carousel.addEventListener('mouseleave', () => { isPaused = false; });
-  carousel.addEventListener('touchstart', () => { isPaused = true; });
-  carousel.addEventListener('touchend', () => { isPaused = false; });
-
-  carousel.addEventListener('scroll', resetScroll);
-  requestAnimationFrame(autoScroll);
+    carousel.addEventListener('scroll', updateButtons, { passive: true });
+    window.addEventListener('resize', updateButtons);
+    updateButtons();
+  });
 }
 
 function revealOnScroll() {
@@ -60,7 +44,7 @@ function revealOnScroll() {
 }
 
 function init() {
-  setupInfiniteCarousel();
+  setupCarousels();
   revealOnScroll();
 }
 

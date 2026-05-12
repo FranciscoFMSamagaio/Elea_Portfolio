@@ -1,0 +1,190 @@
+{
+  "metadata": {
+    "index": {
+      "title": "Elea Gomes | Architecture Portfolio",
+      "description": "Architecture portfolio by Elea Gomes, featuring projects, drawings, 3D modeling and architecture models."
+    },
+    "about": {
+      "title": "About | Elea Gomes",
+      "description": "Learn more about Elea Gomes, architecture student and creative practitioner."
+    },
+    "cv": {
+      "title": "CV | Elea Gomes",
+      "description": "CV, education, work experience, skills and languages for Elea Gomes."
+    },
+    "contacts": {
+      "title": "Contacts | Elea Gomes",
+      "description": "Contact Elea Gomes for architecture projects, collaborations and opportunities."
+    },
+    "drawings": {
+      "title": "Drawings | Elea Gomes",
+      "description": "Drawing gallery by Elea Gomes."
+    },
+    "3d-modeling": {
+      "title": "3D Modeling | Elea Gomes",
+      "description": "3D modeling gallery by Elea Gomes."
+    },
+    "architecture-model": {
+      "title": "Architecture Model | Elea Gomes",
+      "description": "Architecture model gallery by Elea Gomes."
+    },
+    "project-atelier": {
+      "title": "Studio House | Elea Gomes",
+      "description": "Studio House project by Elea Gomes."
+    },
+    "project-urban": {
+      "title": "City Atrium | Elea Gomes",
+      "description": "City Atrium project by Elea Gomes."
+    },
+    "project-heritage": {
+      "title": "Heritage Pavilion | Elea Gomes",
+      "description": "Heritage Pavilion project by Elea Gomes."
+    }
+  },
+  "nav": {
+    "portfolio": "Portfolio",
+    "about": "About Me",
+    "cv": "CV",
+    "contact": "Contact"
+  },
+  "footer": "© 2026 Elea Gomes Portfolio",
+  "index": {
+    "projects": "Projects",
+    "otherWork": "Other work",
+    "otherWorkTitle": "3D modeling, architecture model and drawings",
+    "projectTypes": [
+      "Residential Atelier",
+      "Urban Renewal",
+      "Cultural Conservation",
+      "Landscape House",
+      "Residential Retreat"
+    ],
+    "projectTitles": [
+      "Studio House",
+      "City Atrium",
+      "Heritage Pavilion",
+      "Garden Pavilion",
+      "Lake House"
+    ],
+    "projectCopy": [
+      "A light-filled dwelling layered with workshops and quiet gardens.",
+      "A civic hub weaving public space, offices and subtle material textures.",
+      "A calm intervention that honors history with new light-filled volumes.",
+      "A retreat with sculptural glazing and a quiet planted courtyard.",
+      "A serene wood-clad house arranged around a reflective water terrace."
+    ],
+    "tiles": {
+      "modeling": "3D Modeling",
+      "model": "Architecture Model",
+      "drawings": "Drawings"
+    },
+    "controls": {
+      "projects": "Project carousel controls",
+      "otherWork": "Other work carousel controls",
+      "previousProjects": "Previous projects",
+      "nextProjects": "Next projects",
+      "previousOtherWork": "Previous other work",
+      "nextOtherWork": "Next other work"
+    }
+  },
+  "pages": {
+    "about": {
+      "label": "About Me",
+      "title": "Elea Gomes",
+      "copy1": "I am currently completing my Master’s degree in Architecture, with the submission of my dissertation expected in July 2026. I consider myself a dedicated, responsible, and enthusiastic person, always eager to learn new skills and embrace new challenges. I value communication and teamwork, and I enjoy collaborating in creative and dynamic environments.",
+      "copy2": "I am passionate about discovering new places and seeking opportunities that allow me to experience international cultures and adventures. Outside of architecture, I spend much of my free time exploring creative activities such as drawing, painting, reading, writing, and crochet, as well as engaging in sports and outdoor activities including volleyball, pilates, dance, hiking, and snorkeling.",
+      "portrait": "Portrait Elea Gomes"
+    },
+    "cv": {
+      "label": "CV",
+      "title": "CV",
+      "description": "Architecture education, project experience and a thoughtful software skillset.",
+      "button": "Download CV (PDF)"
+    },
+    "contacts": {
+      "label": "Contact",
+      "title": "Let’s discuss a project or collaboration.",
+      "description": "If you are interested in my work, feel free to contact me.",
+      "emailLabel": "Send an email to Elea Gomes",
+      "linkedinLabel": "Open Elea Gomes on LinkedIn"
+    },
+    "otherWork": {
+      "label": "Other work",
+      "drawings": "Drawings",
+      "modeling": "3D Modeling",
+      "model": "Architecture Model"
+    },
+    "project": {
+      "label": "Project"
+    }
+  },
+  "cv": {
+    "sections": {
+      "work": "Work Experience",
+      "education": "Education",
+      "skills": "Skills",
+      "other": "Others Experience",
+      "languages": "Languages"
+    },
+    "work": {
+      "intern": "<strong>Architecture Intern</strong><br>RAAI Architecture et Ingénierie | Paris | March–July 2025"
+    },
+    "education": {
+      "faup": "<strong>FAUP</strong><br>Faculty of Architecture, University of Porto | 2020–2026",
+      "munich": "<strong>Munich University of Applied Sciences</strong><br>Winter Semester 2024/2025<br>Erasmus Programme – Hochschule München",
+      "bologna": "<strong>University of Bologna</strong><br>Summer 2024<br>Blended Intensive Programme (BIP)",
+      "erasmus": "<strong>Erasmus+</strong><br>Almeida Garrett Secondary School | 2018–2019"
+    },
+    "skills": {
+      "autocad": "AutoCAD",
+      "revit": "Revit",
+      "archicad": "Archicad",
+      "photoshop": "Adobe Photoshop",
+      "indesign": "Adobe InDesign",
+      "qgis": "QGIS",
+      "vray": "V-Ray",
+      "handDrawing": "Hand drawing",
+      "sketching": "Sketching",
+      "watercolors": "Watercolors",
+      "modeling": "3D modeling"
+    },
+    "other": {
+      "babysitter": "<strong>Babysitter</strong><br>Porto | Occasional work | 2017–2022",
+      "waitress": "<strong>Waitress & Events Staff</strong><br>The Vintage House Hotel | Douro | August–September 2022",
+      "events": "<strong>Events & Conference Staff</strong><br>FAUP | Porto | Occasional work | 2023–2025",
+      "tutor": "<strong>English Tutor</strong><br>Munich | September 2024 – February 2025"
+    },
+    "languages": {
+      "portuguese": "Portuguese — Native",
+      "english": "English — Fluent",
+      "french": "French — Fluent",
+      "spanish": "Spanish — Intermediate"
+    }
+  },
+  "projects": {
+    "studio": {
+      "title": "Studio House",
+      "description": "A compact atelier-residence designed around a courtyard, generous north light, and material intimacy.",
+      "copy": "The Studio House is conceived as a calm urban retreat with an internal garden, expressive timber surfaces, and moments of layered daylight. The plan arranges living, working and sleeping around a central courtyard to create varied visual connections.",
+      "location": "<strong>Location:</strong> Lisbon, Portugal",
+      "year": "<strong>Year:</strong> 2025",
+      "type": "<strong>Type:</strong> Residential Atelier"
+    },
+    "city": {
+      "title": "City Atrium",
+      "description": "An urban intervention that brings a calm, sculptural atrium into an energetic civic district.",
+      "copy": "City Atrium acts as an anchor for public life, combining transparent gathering spaces with offices above. The scheme emphasizes continuity between street, interior and roof terraces.",
+      "location": "<strong>Location:</strong> Porto, Portugal",
+      "year": "<strong>Year:</strong> 2024",
+      "type": "<strong>Type:</strong> Urban Renewal"
+    },
+    "heritage": {
+      "title": "Heritage Pavilion",
+      "description": "A sensitive cultural pavilion woven into an existing historic setting.",
+      "copy": "The Heritage Pavilion is a subtle addition to an existing landscape, respecting context while offering an open exhibition space and contemplative courtyard. The design balances old and new through material restraint and spatial clarity.",
+      "location": "<strong>Location:</strong> Cascais, Portugal",
+      "year": "<strong>Year:</strong> 2025",
+      "type": "<strong>Type:</strong> Cultural Conservation"
+    }
+  }
+}

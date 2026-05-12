@@ -156,6 +156,28 @@ button, input, textarea, select {
   color: var(--text);
 }
 
+.language-switcher {
+  display: inline-flex;
+  gap: 0.45rem;
+  align-items: center;
+  margin-left: 0.25rem;
+}
+
+.language-switcher button {
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding: 0.2rem 0;
+}
+
+.language-switcher button.is-active,
+.language-switcher button:hover,
+.language-switcher button:focus {
+  color: var(--text);
+}
+
 .hero-section {
   padding: 5rem 2rem 3rem;
 }
@@ -243,16 +265,11 @@ button, input, textarea, select {
   overflow-x: auto;
   padding-bottom: 1rem;
   scroll-snap-type: x mandatory;
-  scrollbar-width: thin;
+  scrollbar-width: none;
 }
 
 .horizontal-scroll::-webkit-scrollbar {
-  height: 10px;
-}
-
-.horizontal-scroll::-webkit-scrollbar-thumb {
-  background: var(--border);
-  border-radius: 999px;
+  display: none;
 }
 
 .horizontal-scroll.refined {
@@ -261,6 +278,47 @@ button, input, textarea, select {
 
 .horizontal-scroll.refined::-webkit-scrollbar {
   display: none;
+}
+
+.carousel-shell {
+  position: relative;
+}
+
+.carousel-controls {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.75rem;
+  max-width: 1200px;
+  margin: -0.5rem auto 1rem;
+}
+
+.section-gallery .carousel-controls {
+  max-width: none;
+}
+
+.carousel-button {
+  display: inline-grid;
+  place-items: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--text);
+  cursor: pointer;
+  font-size: 1.2rem;
+  line-height: 1;
+  box-shadow: 0 12px 30px rgba(17,17,17,0.08);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+.carousel-button:hover:not(:disabled) {
+  transform: translateY(-2px);
+}
+
+.carousel-button:disabled {
+  cursor: default;
+  opacity: 0.35;
 }
 
 .section-gallery .section-header {
@@ -351,23 +409,23 @@ button, input, textarea, select {
 }
 
 .image-atelier {
-  background-image: linear-gradient(160deg, #b7b29a 0%, #fff9f1 35%, #d8c5b2 100%);
+  background-image: url("../projects/Studio_House/Studio_House_1.jpeg");
 }
 
 .image-urban {
-  background-image: linear-gradient(160deg, #d9dbe3 0%, #f6f3ee 32%, #b8b0a7 100%);
+  background-image: url("../projects/City_Atrium/City_Atrium_1.jpeg");
 }
 
 .image-heritage {
-  background-image: linear-gradient(160deg, #d7c8be 0%, #f8f4ef 35%, #a9a19d 100%);
+  background-image: url("../projects/Heritage_Pavilion/Heritage_Pavilion_1.jpeg");
 }
 
 .image-garden {
-  background-image: linear-gradient(160deg, #c1baaf 0%, #efebe6 40%, #bbaf9f 100%);
+  background-image: url("../projects/Garden_Pavilion/Garden_Pavilion_1.jpeg");
 }
 
 .image-retreat {
-  background-image: linear-gradient(160deg, #d5d1ca 0%, #f5f1ec 40%, #b0a79f 100%);
+  background-image: url("../projects/Lake_House/Lake_House_1.jpeg");
 }
 
 .gallery-tile {

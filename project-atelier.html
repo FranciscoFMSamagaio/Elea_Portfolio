@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Elea Gomes architecture portfolio page." />
   <title>Studio House | Elea Gomes</title>
-  <link rel="stylesheet" href="css/style.css?v=font-everywhere" />
+  <link rel="stylesheet" href="css/style.css?v=projects-carousel-i18n" />
 </head>
 <body>
   <div class="page-shell">
@@ -20,18 +21,18 @@
 
     <main class="content-page">
       <section class="section section-page-header">
-        <p class="section-label">Project</p>
-        <h1>Studio House</h1>
-        <p class="section-description">A compact atelier-residence designed around a courtyard, generous north light, and material intimacy.</p>
+        <p class="section-label" data-i18n="pages.project.label">Project</p>
+        <h1 data-i18n="projects.studio.title">Studio House</h1>
+        <p class="section-description" data-i18n="projects.studio.description">A compact atelier-residence designed around a courtyard, generous north light, and material intimacy.</p>
       </section>
 
       <section class="section project-details">
         <div class="project-detail-copy">
-          <p>The Studio House is conceived as a calm urban retreat with an internal garden, expressive timber surfaces, and moments of layered daylight. The plan arranges living, working and sleeping around a central courtyard to create varied visual connections.</p>
+          <p data-i18n="projects.studio.copy">The Studio House is conceived as a calm urban retreat with an internal garden, expressive timber surfaces, and moments of layered daylight. The plan arranges living, working and sleeping around a central courtyard to create varied visual connections.</p>
           <ul>
-            <li><strong>Location:</strong> Lisbon, Portugal</li>
-            <li><strong>Year:</strong> 2025</li>
-            <li><strong>Type:</strong> Residential Atelier</li>
+            <li data-i18n-html="projects.studio.location"><strong>Location:</strong> Lisbon, Portugal</li>
+            <li data-i18n-html="projects.studio.year"><strong>Year:</strong> 2025</li>
+            <li data-i18n-html="projects.studio.type"><strong>Type:</strong> Residential Atelier</li>
           </ul>
         </div>
         <div class="project-gallery">
@@ -46,6 +47,8 @@
       <p>© 2026 Elea Gomes Portfolio</p>
     </footer>
   </div>
+  <script src="https://unpkg.com/i18next@23.16.8/dist/umd/i18next.min.js"></script>
+  <script src="js/i18n.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
