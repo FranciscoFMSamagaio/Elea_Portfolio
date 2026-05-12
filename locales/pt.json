@@ -1,8 +1,8 @@
 {
   "metadata": {
     "index": {
-      "title": "Elea Gomes | Portefólio de Arquitetura",
-      "description": "Portefólio de arquitetura de Elea Gomes, com projetos, desenhos, modelação 3D e maquetes."
+      "title": "Elea Gomes | Portfólio de Arquitetura",
+      "description": "Portfólio de arquitetura de Elea Gomes, com projetos, desenhos, modelação 3D e maquetes."
     },
     "about": {
       "title": "Sobre | Elea Gomes",
@@ -42,12 +42,12 @@
     }
   },
   "nav": {
-    "portfolio": "Portefólio",
+    "portfolio": "Portfólio",
     "about": "Sobre Mim",
     "cv": "CV",
     "contact": "Contacto"
   },
-  "footer": "© 2026 Portefólio Elea Gomes",
+  "footer": "© 2026 Portfólio Elea Gomes",
   "index": {
     "projects": "Projetos",
     "otherWork": "Outro trabalho",

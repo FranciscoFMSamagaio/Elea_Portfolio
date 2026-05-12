@@ -215,6 +215,15 @@ button, input, textarea, select {
   padding: 3rem 2rem;
 }
 
+.section-featured,
+.section-gallery {
+  background: #ffffff;
+}
+
+.section-featured {
+  padding-top: 1rem;
+}
+
 .section-header {
   display: flex;
   justify-content: space-between;
@@ -230,11 +239,21 @@ button, input, textarea, select {
 
 .projects-title {
   justify-content: flex-start;
+  font-weight: bold;
   text-align: left;
+  max-width: none;
+  margin: 0 0 0.35rem;
+  font-size: 1.25rem;
 }
 
-.projects-title h2 {
+.section-header.projects-title h2 {
+  color: var(--muted);
+  font-size: 1rem;
   font-weight: 400;
+  letter-spacing: 0.22em;
+  line-height: 1.2;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .section-label {
@@ -263,6 +282,7 @@ button, input, textarea, select {
   grid-auto-flow: column;
   grid-auto-columns: min(560px, 88vw);
   gap: 1.5rem;
+  background: #ffffff;
   overflow-x: auto;
   padding-bottom: 1rem;
   scroll-snap-type: x mandatory;
@@ -291,6 +311,11 @@ button, input, textarea, select {
   gap: 0.75rem;
   max-width: 1200px;
   margin: -0.5rem auto 1rem;
+}
+
+.section-featured .carousel-controls {
+  max-width: none;
+  margin: -2.8rem 0 0.5rem;
 }
 
 .section-gallery .carousel-controls {
