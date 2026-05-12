@@ -381,7 +381,7 @@ button, input, textarea, select {
   position: relative;
   cursor: pointer;
   transition: transform 0.35s ease, box-shadow 0.35s ease;
-  box-shadow: var(--shadow);
+/*  box-shadow: var(--shadow);*/
 }
 
 .project-card:hover,
@@ -716,7 +716,7 @@ button, input, textarea, select {
   .project-card,
   .horizontal-scroll,
   .gallery-tile {
-    min-height: 360px;
+    min-height: 420px;
   }
 
   .about-header {
