@@ -79,8 +79,8 @@
     switcher.className = 'language-switcher';
     switcher.setAttribute('aria-label', 'Language switcher');
     switcher.innerHTML = `
-      <button type="button" data-language="pt">🇵🇹 PT</button>
-      <button type="button" data-language="en">🇬🇧 EN</button>
+      <button type="button" data-language="pt">PT</button>
+      <button type="button" data-language="en">EN</button>
     `;
     nav.appendChild(switcher);
 
