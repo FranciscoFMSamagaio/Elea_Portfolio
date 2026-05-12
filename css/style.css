@@ -1,6 +1,7 @@
 :root {
   color-scheme: light;
-  --bg: #f9f7f3;
+  /*--bg: #f9f7f3;*/
+  --bg: #ffffff;
   --surface: #ffffff;
   --surface-soft: #f2f0eb;
   --text: #111111;
